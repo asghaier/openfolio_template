@@ -1,6 +1,6 @@
 {
-    "name": "goalgorilla/social_template",
-    "description": "Social project template for composer based Open Social projects.",
+    "name": "asghaier/openfolio_template",
+    "description": "Openfolio project template for composer based Openfolio projects.",
     "type": "project",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
@@ -9,7 +9,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.0",
-        "goalgorilla/open_social": "^1.0"
+        "asghaier/openfolio": "^1.0"
     },
     "repositories": [
         {
@@ -34,7 +34,7 @@
                 "type:drupal-module"
             ],
             "html/profiles/contrib/social": [
-                "goalgorilla/open_social"
+                "asghaier/openfolio"
             ],
             "html/profiles/contrib/{$name}": [
                 "type:drupal-profile"
