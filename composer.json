@@ -33,7 +33,7 @@
             "html/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "html/profiles/contrib/social": [
+            "html/profiles/contrib/openfolio": [
                 "asghaier/openfolio"
             ],
             "html/profiles/contrib/{$name}": [
